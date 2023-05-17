@@ -13,6 +13,6 @@ fn process(v: &dyn Print){ //reference a qualcosa che implementa Print; & dava e
     v.print();
 }
 
-fn main() {
+pub fn main2() {
     process(&S{i:0})
 }
